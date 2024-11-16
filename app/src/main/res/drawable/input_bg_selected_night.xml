@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:drawable="@color/list_item_bg_night" />
+	<item android:drawable="@color/theme_color_night" android:gravity="bottom" android:height="1dp" />
+</layer-list>

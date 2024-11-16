@@ -1,0 +1,20 @@
+<resources>
+	<string name="app_name">TOTP验证</string>
+	<string name="copied_to_clipboard">已复制到剪贴板</string>
+	<string name="add_account">添加账号</string>
+	<string name="provider">签发方</string>
+	<string name="account">账号</string>
+	<string name="secret_key">密钥</string>
+	<string name="digits">位数</string>
+	<string name="refresh_interval">刷新周期(单位：秒)</string>
+	<string name="algorithm">算法</string>
+	<string name="time_base">开始时间戳(单位：秒)</string>
+	<string name="add">添加</string>
+	<string name="all_fields_should_not_be_empty">缺少必须的字段</string>
+	<string name="finish">完成</string>
+	<string name="advanced_settings">高级选项</string>
+	<string name="delete">删除</string>
+	<string name="scan_qr_code">扫描二维码</string>
+	<string name="camera_permission_denied">无权启动摄像机</string>
+	<string name="press_back_once_more_to_finish">再按一次返回将退出应用</string>
+</resources>

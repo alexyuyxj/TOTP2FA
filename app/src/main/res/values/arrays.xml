@@ -1,0 +1,7 @@
+<resources>
+	<string-array name="algorithms">
+		<item>HmacSHA1</item>
+		<item>HmacSHA256</item>
+		<item>HmacSHA512</item>
+	</string-array>
+</resources>

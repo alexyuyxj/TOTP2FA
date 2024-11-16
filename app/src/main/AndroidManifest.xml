@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools">
+
+	<uses-feature android:name="android.hardware.camera" android:required="false" />
+
+	<uses-permission android:name="android.permission.CAMERA"/>
+
+	<application
+		android:allowBackup="true"
+		android:icon="@drawable/ic_launcher"
+		android:label="@string/app_name"
+		android:supportsRtl="true"
+		android:theme="@style/Theme.TOTP2FA"
+		tools:targetApi="31">
+		<activity
+			android:name=".MainActivity"
+			android:exported="true"
+			android:configChanges="uiMode|orientation">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity
+			android:name=".AddAccountActivity"
+			android:configChanges="uiMode|orientation"
+			android:exported="false"/>
+
+		<activity
+			android:name=".AdvancedSettingActivity"
+			android:configChanges="uiMode|orientation"
+			android:exported="false"/>
+
+		<activity
+			android:name=".EditAccountActivity"
+			android:configChanges="uiMode|orientation"
+			android:exported="false"/>
+
+		<activity
+			android:name=".QRCodeScannerActivity"
+			android:configChanges="uiMode|orientation"
+			android:exported="false"/>
+	</application>
+
+</manifest>

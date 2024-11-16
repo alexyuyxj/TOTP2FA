@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="theme_color">#FFBB86FC</color>
+	<color name="theme_color_night">#FF3700B3</color>
+	<color name="otp_color">#FFBB86FC</color>
+	<color name="otp_color_night">#FF6200EE</color>
+	<color name="title_font_color">#FFFFFFFF</color>
+	<color name="title_font_color_night">#FF000000</color>
+	<color name="font_color">#FF000000</color>
+	<color name="font_color_night">#FFFFFFFF</color>
+	<color name="list_bg">#FFF0F0F0</color>
+	<color name="list_bg_night">#FF404040</color>
+	<color name="list_item_bg">#FFFFFFFF</color>
+	<color name="list_item_bg_night">#FF202020</color>
+	<color name="account">#FF808080</color>
+	<color name="account_night">#FFA0A0A0</color>
+</resources>
